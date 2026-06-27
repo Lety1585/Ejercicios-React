@@ -1,4 +1,4 @@
-export default function PrecioProducto() {
+export function PrecioProducto() {
   const precio = 22.049;
 
   return (
@@ -7,3 +7,5 @@ export default function PrecioProducto() {
     </div>
   );
 }
+
+export default PrecioProducto;

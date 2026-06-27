@@ -1,14 +1,14 @@
 import './App.css'
-import Saludo from './componentes/Saludo'
-import Producto from "./componentes/Producto";
-import Habilidades from "./componentes/ListaHabilidades";
+import Layout from './componentes/Layout'
+import Productos from './componentes/Productos/Producto.jsx'
 
 function App() {
   return (
     <div style={{ padding: 24 }}>
-      <Saludo></Saludo>
-      <Habilidades></Habilidades>
-      <Producto />
+      <Layout>
+        <h2>Productos</h2>
+        <Productos></Productos>
+      </Layout>
     </div>
   )
   

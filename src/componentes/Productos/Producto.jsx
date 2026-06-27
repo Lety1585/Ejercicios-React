@@ -1,12 +1,13 @@
 import ImagenProducto from "./ImagenProducto";
 import DescripcionProducto from "./DescripcionProducto";
 import PrecioProducto from "./PrecioProducto";
+import styles from "./Producto.module.css"
 
-export default function Producto() {
+export function Producto() {
   return (
-    <div>
+    <div className={styles.card}>
       <ImagenProducto />
-      <div>
+      <div className={styles.card}>
         <DescripcionProducto />
         <PrecioProducto />
         
@@ -17,3 +18,5 @@ export default function Producto() {
     </div>
   );
 }
+
+export default Producto;

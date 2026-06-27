@@ -1,4 +1,4 @@
-export default function DescripcionProducto() {
+export function DescripcionProducto() {
   const nombre = "Auriculares Bluetooth";
   const descripcion = "Auriculares Inalámbricos Micrófono Vincha Bluetooth 5.3 Largo Alcance Alta Fidelidad Entrada Auxiliar";
 
@@ -11,3 +11,5 @@ export default function DescripcionProducto() {
     </div>
   );
 }
+
+export default DescripcionProducto;
