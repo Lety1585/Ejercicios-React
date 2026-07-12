@@ -5,6 +5,7 @@ import styles from "./Producto.module.css"
 
 export function Producto() {
   return (
+    <div className={styles.container}>
     <div className={styles.card}>
       <ImagenProducto />
       <div className={styles.card}>
@@ -15,6 +16,7 @@ export function Producto() {
           Comprar
         </button>
       </div>
+    </div>
     </div>
   );
 }

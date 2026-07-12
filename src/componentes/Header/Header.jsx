@@ -1,8 +1,9 @@
 import styles from './Header.module.css';
+const links = ["Inicio", "Productos", "Contacto", "Carrito"];
 
 function Header() {
     return (
-        <header>
+        <header className={styles.header}>
             <h1>Mi App</h1>
             
             <nav>
@@ -12,6 +13,12 @@ function Header() {
                     <li><a href="#">Contacto</a></li>
                     <li><a href="#" className={styles.loginBtn}> Login </a></li>
                 </ul>
+            </nav>
+
+            <nav>
+                {links.map((link, index) => (
+                    <a key={index}>{link}</a>
+                ))}
             </nav>
         </header>
     );

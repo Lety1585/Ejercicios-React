@@ -1,3 +1,13 @@
 .card {
   background-color:  #08060d;
 }
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px black;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
