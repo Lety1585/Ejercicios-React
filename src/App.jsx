@@ -8,6 +8,7 @@ import Producto2 from './componentes/Productos/Producto2.jsx'
 import TarjetaProducto from './componentes/Productos/TarjetaProducto.jsx'
 import ListaEmpleados from './componentes/Empleados/ListaEmpleados.jsx'
 import MovieListContainer from './componentes/FlujoHooks/MovieListContainer.jsx'
+import {Contador} from './componentes/FlujoHooks/MovieSelector.jsx'
 
 const empleados = [
   { nombre: "Lucía",    edad: 25, profesion: "Diseñadora"        },
@@ -38,6 +39,7 @@ function App() {
         <TarjetaProducto nombre="Producto 2" precio={1.500} />
         <TarjetaProducto nombre="Producto 3" precio={2.100} />
         <h1>Peliculas</h1>
+        <Contador />
         <MovieListContainer Mensaje='Peliculas por año'></MovieListContainer>
         <h2>Empleados</h2>
         <ListaEmpleados empleados={empleados} />

@@ -1,0 +1,12 @@
+.peliculas{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:2rem;
+}
+
+.mensaje{
+    align-items: center;
+    padding:2rem 2rem 1rem 1rem;
+}
