@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "9 reinas",
+        "año": "2000",
+        "imagen": "/imagenes/Nueve_reinas-171671850-mmed.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Scream",
+        "año": "1998",
+        "imagen": "/imagenes/Scream_de_1996.webp"
+    },
+    {
+        "id": 3,
+        "titulo": "Matrix",
+        "año": "1999",
+        "imagen": "/imagenes/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    }
+]

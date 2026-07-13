@@ -37,5 +37,15 @@ const nombres = ['Matias', 'Sabrina', 'Luis'];
     ))} {/* el codigo js va entre llaves */}
 </ul>
 
-/* Item List Container - General*/
+/* Use effect
+import React, { useEffect } from 'react';
+useEffect(() => {
+// Código que queremos ejecutar (el efecto)
+console.log('El componente se acaba de mostrar en pantalla.');
+return () => {
+// La "limpieza" (opcional)
+console.log('El componente se va a desmontar. Limpiando...');
+};
+}, [Array de dependencias]
+*/
 
