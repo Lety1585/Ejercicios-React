@@ -24,7 +24,7 @@ function Peliculas() {
             });
     }, []);
     if (cargando) {
-        return <p>Cargando productos ...</p>;
+        return <p>Cargando peliculas ...</p>;
     }
     if (error) {
         return <p>Error: {error}</p>;

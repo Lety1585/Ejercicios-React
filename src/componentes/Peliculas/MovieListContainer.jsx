@@ -1,7 +1,7 @@
 import MovieList from './MovieList'
 import styles from './MovieListContainer.module.css'
 
-function MovieListContainer({ Mensaje }) {
+function MovieListContainer({ Mensaje, Disponibles }) {
     const peliculas =[
         {id: '1', titulo: '9 reinas', año: '2000', disponible: true},
         {id: '2', titulo: 'Scream', año: '1998', disponible: false},
@@ -9,9 +9,8 @@ function MovieListContainer({ Mensaje }) {
 
     ]
 
-    const peliculasDisponibles = peliculas.filter(
-    (pelicula) => pelicula.disponible === true
-  );
+    const peliculasDisponibles = Disponibles ? peliculas.filter(
+    (pelicula) => pelicula.disponible === true) : peliculas
 
   return (
     <div className={styles.peliculas}>
